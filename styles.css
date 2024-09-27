@@ -1,0 +1,43 @@
+        body {
+            background-color: #2990ea;
+            font-family: Arial, sans-serif;
+            color: #ff0000;
+        }
+        h1 {
+            color: #00ff37;
+        }
+        p {
+            font-size: 30px;
+        }
+        .responsive-btn {
+            background-color: #e809ca; /* Blue color */
+            color: rgb(189, 237, 16);
+            padding: 15px 32px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+    
+        .responsive-btn:hover {
+            background-color: #c93c00;
+        }
+    
+        /* Responsive design - when the screen is 500px or smaller */
+        @media (max-width: 500px) {
+            .responsive-btn {
+                width: 100%;  /* Button takes up the whole screen width */
+                padding: auto;
+                font-size: 18px;
+            }
+        }
+        body {
+            background-image: url('av-operations-manager.jpg');
+            background-size: cover; /* Makes sure the image covers the whole background */
+            background-position: center; /* Centers the background image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            font-family: 'Roboto', sans-serif;
+        }
+        img {width: 300px;
+        height: auto;}
